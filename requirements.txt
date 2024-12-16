@@ -1,0 +1,5 @@
+psycopg2-binary
+clickhouse-connect
+python-dotenv
+pandas
+

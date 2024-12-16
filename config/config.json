@@ -1,0 +1,18 @@
+{
+    "migration_schema": "Full",
+    "tables": 
+    [
+        {
+            "name": "account",
+            "insert_batchsize":50000
+        }
+    ],
+    "csv_files":
+    [
+        {
+            "csv":"account.csv",
+            "table":"account",
+            "insert_batchsize":50000
+        }
+    ]
+}

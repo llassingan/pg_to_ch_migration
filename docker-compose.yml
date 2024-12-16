@@ -1,0 +1,10 @@
+services:
+  migrator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: .env
+    volumes:
+      - ./logs:/tmp/logs
+      - ./dumps:/tmp/dumps
+      - ./config:/config
